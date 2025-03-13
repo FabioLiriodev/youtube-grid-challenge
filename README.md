@@ -1,6 +1,6 @@
-🎥 Youtube Grid Challenge 🎥
+# 🎥 Youtube Grid Challenge 🎥
 
-📚 Table of Contents
+## 📚 Table of Contents 📚
 
 - About the Project;
 
@@ -22,17 +22,17 @@
 
 - Future Perspectives;
 
-📝 About the Project 📝
+## 📝 About the Project 📝
 
 The Youtube Grid Challenge is a project focused on developing the video thumbnail page of Youtube. The page consists of a header, a sidebar, and a main section, all structured using CSS Grid properties like grid-template-columns, grid-template-rows, grid-template-areas, and grid-areas.
 
 The Figma project prototype could be access on <a href="https://www.figma.com/design/KknwioExyqKD3D2eSVFrcW/Desafio-Grid---DIO?node-id=1-2&t=7qsd4ZcNo4mSlH28-0">this link</a>.
 
-🎯 Project Objective 🎯
+### 🎯 Project Objective 🎯
 
 The goal of this project is to build a web page with a layout similar to Youtube's video thumbnail page, ensuring proper positioning and alignment of elements using CSS Grid.
 
-🎨 Color Palette 🎨
+## 🎨 Color Palette 🎨
 
 ```css
 --background-color-menu: #FFFFFF;
@@ -44,12 +44,12 @@ The goal of this project is to build a web page with a layout similar to Youtube
 
 The palette consists of neutral tones, using shades of white, gray, and black, with red elements for buttons to resemble Youtube’s visual identity.
 
-✒️ Typography ✒️
+## ✒️ Typography ✒️
 
 ```css
 Text and Title Font: 'Roboto', sans-serif;
 ```
-<h2> 🛠️ Technologies Used 🛠️ </h2>
+## <h2> 🛠️ Technologies Used 🛠️ </h2>
 
 <div>
 
@@ -60,27 +60,24 @@ Text and Title Font: 'Roboto', sans-serif;
 </div>
 <br>
 
-<h2> 🚧 Project Status 🚧 </h2>
+## <h2> 🚧 Project Status 🚧 </h2>
 
 ![Badge Finish](http://img.shields.io/static/v1?label=STATUS&message=FINISH&color=GREEN&style=for-the-badge)
 
 
-🛠 Functionality 🛠
+## 🛠 Functionality 🛠
 
 Web development of Youtube’s video thumbnail page for desktop resolutions (1440px or higher).
 
-👨‍💻 Developer 👨‍💻
+## 👨‍💻 Developer 👨‍💻
 
 <img src="https://avatars.githubusercontent.com/u/140852220?s=400&u=c03075cdb745198fe290f16fd7a345907cae4c89&v=4" width=100><br><sub>Fábio Lirio</sub>
 
 
-🚧 Challenges 🚧
+## 🚧 Challenges 🚧
 
 The project was developed smoothly without major challenges, thanks to the straightforward nature of CSS Grid properties.
 
-🔮 Future Perspectives 🔮
+## 🔮 Future Perspectives 🔮
 
 🚀 Implementation of responsiveness for different screen sizes.
-
-🚀 Dynamic data fetching for video thumbnails and content.
-
