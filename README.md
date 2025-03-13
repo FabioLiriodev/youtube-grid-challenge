@@ -1,4 +1,4 @@
-# 🎥 Youtube Grid Challenge 🎥
+<div align="center"> # 🎥 Youtube Grid Challenge 🎥 </div>
 
 ## 📚 Table of Contents 📚
 
