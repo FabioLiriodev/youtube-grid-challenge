@@ -81,6 +81,3 @@ The project was developed smoothly without major challenges, thanks to the strai
 ## 🔮 Future Perspectives 🔮
 
 🚀 Implementation of responsiveness for different screen sizes.
-
-🚀 Dynamic data fetching for video thumbnails and content.
-
