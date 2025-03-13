@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(../css/reset.css);
+@import url(../css/header.css);
+@import url(../css/sidebar.css);
+@import url(../css/grid.css);
+
+
+:root {
+    font-size: 14px;
+    --font-family: 'Roboto', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 600;
+    --font-weight-bold: 700;
+
+    --font-size-3xl: 6rem;
+    --font-size-2xl: 5rem;
+    --font-size-xl: 4rem;
+    --font-size-l: 3rem;
+    --font-size-m: 2rem;
+    --font-size-i: 1.5rem;
+    --font-size-b: 1rem;
+    --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
+
+    --padding-3xl: 6rem;
+    --padding-2xl: 5rem;
+    --padding-xl: 4rem;
+    --padding-l: 3rem;
+    --padding-m: 2rem;
+    --padding-i: 1.5rem;
+    --padding-b: 1rem;
+    --padding-s: 0.75rem;
+    --padding-xs: 0.5rem;
+
+    --margin-3xl: 6rem;
+    --margin-2xl: 5rem;
+    --margin-xl: 4rem;
+    --margin-l: 3rem;
+    --margin-m: 2rem;
+    --margin-i: 1.5rem;
+    --margin-b: 1rem;
+    --margin-s: 0.75rem;
+    --margin-xs: 0.5rem;
+
+    --gap-3xl: 6rem;
+    --gap-2xl: 5rem;
+    --gap-xl: 4rem;
+    --gap-l: 3rem;
+    --gap-m: 2rem;
+    --gap-i: 1.5rem;
+    --gap-b: 1rem;
+    --gap-s: 0.75rem;
+    --gap-xs: 0.5rem;
+
+    --background-color-menu: #FFFFFF;
+    --background-color-page: #F8F8F8;
+    --color-text-black: #000000;
+    --color-text-gray: #515151;
+    --border-color: #CCCCCC;
+}
+
+body {
+    background-color: var(--background-color-page);
+    font-family: var(--font-family);
+    font-size: var(--font-size-b);
+    color: var(--color-text-black);
+    height: calc(100vh -58px);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 24px 130px 28px;
+    gap: 14px;
+}
+
+.video-container-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.video-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: var(--font-weight-medium);
+}
+
+span {
+    font-size: 0.86rem;
+    font-weight: var(--font-weight-regular);
+}

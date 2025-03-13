@@ -1,0 +1,34 @@
+:root {
+    font-size: 14px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    height: 100%;
+    width: 218px;
+    background-color: var(--background-color-menu);
+    padding: 24px 37px 24px 24px;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style: none;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: var(--color-text-black);
+
+}

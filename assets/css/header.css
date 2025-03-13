@@ -1,0 +1,46 @@
+:root {
+    font-size: 14px;
+}
+
+header,
+sidebar {
+    background-color: var(--background-color-menu);
+}
+
+header {
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+
+.left-container,
+.middle-container,
+.right-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container {
+    gap: 1.71rem;
+}
+
+.middle-container input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+}
+
+.middle-container img {
+    padding: 7px 19px 7.2px 14px;
+    background-color: var(--background-color-page);
+    border: 1px solid var(--border-color);
+}
+
+.right-container {
+    gap: 24px;
+}

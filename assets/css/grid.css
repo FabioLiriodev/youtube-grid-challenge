@@ -1,0 +1,25 @@
+:root {
+    font-size: 14px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px repeat(4, 1fr);
+    grid-template-rows: 56px repeat(3, 1fr);
+    grid-template-areas: "header header header header header"
+    "sidebar main main main main"
+    "sidebar main main main main"
+    "sidebar main main main main";
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: main;
+}
